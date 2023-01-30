@@ -1,0 +1,2 @@
+Object("main.o","main.asm",AS="nasm",ASFLAGS="-f elf64")
+Program("main","main.o",CC="ld")
